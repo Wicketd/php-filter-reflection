@@ -1,0 +1,23 @@
+{
+    "name": "wicketd/filter-reflection",
+    "type": "library",
+    "description": "TODO",
+    "keywords": ["reflection"],
+    "license": "MIT",
+    "version": "0.0.0",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wicketd\\FilterReflection\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
